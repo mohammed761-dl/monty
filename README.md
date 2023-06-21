@@ -50,59 +50,6 @@ $ make
 | nop | opcode should do nothing |
 
 
-
-
-Examples:
-`$ cat opcodetestfile.m`
-
-`push 1`
-
-`push 2`
-
-`push 3`
-
-`pall`
-
-`$ ./montyfile opcodetestfile.m`
-
-`3`
-
-`2`
-
-`1`
-
-`$`
-
----
-
-`$ cat opcodetestfile.m`
-
-`push 1`
-
-`push 2`
-
-`push 3`
-
-`pall`
-
-`rotl`
-
-`pall`
-
-`$ ./montyfile opcodetestfile.m`
-
-`3`
-
-`2`
-
-`1`
-
-`2`
-
-`1`
-
-`3`
-
 ## Exit Status
 Exits with status `EXIT_FAILURE`
 
